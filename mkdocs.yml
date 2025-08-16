@@ -2,7 +2,7 @@ site_name: Horrifice Documentation
 theme:
     name: material
     palette:
-        scheme: slate # sötétebb alap
+        scheme: slate
         primary: indigo
         accent: pink
     font:
@@ -11,3 +11,6 @@ theme:
 nav:
     - Home: index.md
     - About: about.md
+plugins:
+    - search
+    - literate-nav
